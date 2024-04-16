@@ -13,7 +13,6 @@ import java.net.URI
 class ImagesActivity : AppCompatActivity() {
     private lateinit var binding: ActivityImagesBinding
     private lateinit var firebaseFirestore: FirebaseFirestore
-    private var imageURI:URI?=null
     private var mList= mutableListOf<String>()
     private lateinit var adapter: ImagesAdapter
 
